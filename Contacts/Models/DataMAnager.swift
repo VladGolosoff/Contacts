@@ -35,5 +35,4 @@ class DataManager {
         "+79391234567"
     ]
     
-    private init() {}
 }

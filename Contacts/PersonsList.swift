@@ -13,7 +13,14 @@ struct PersonsList: View {
     var body: some View {
         NavigationView {
             List (persons, id: \.self) { person in
-                Text(person.fullName)
+                NavigationLink(destination: PersonalInfo(person: person)) {
+                    HStack {
+                        Image(systemName: "person")
+                            .foregroundColor(.blue)
+                            .padding()
+                        Text(person.fullName)
+                    }
+                }
                 
             }
             .listStyle(.plain)

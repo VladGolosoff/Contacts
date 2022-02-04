@@ -15,6 +15,7 @@
 		14D7E95D27AD762C0008DC4E /* DataMAnager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D7E95C27AD762C0008DC4E /* DataMAnager.swift */; };
 		14D7E96027AD80370008DC4E /* PersonsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D7E95F27AD80370008DC4E /* PersonsList.swift */; };
 		14D7E96227AD92160008DC4E /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D7E96127AD92160008DC4E /* ContactList.swift */; };
+		14D7E96427ADA4570008DC4E /* PersonalInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D7E96327ADA4570008DC4E /* PersonalInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		14D7E95C27AD762C0008DC4E /* DataMAnager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataMAnager.swift; sourceTree = "<group>"; };
 		14D7E95F27AD80370008DC4E /* PersonsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsList.swift; sourceTree = "<group>"; };
 		14D7E96127AD92160008DC4E /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
+		14D7E96327ADA4570008DC4E /* PersonalInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				14D7E94C27AD48D20008DC4E /* ContactsApp.swift */,
 				14D7E94E27AD48D20008DC4E /* ContentView.swift */,
 				14D7E95F27AD80370008DC4E /* PersonsList.swift */,
+				14D7E96327ADA4570008DC4E /* PersonalInfo.swift */,
 				14D7E96127AD92160008DC4E /* ContactList.swift */,
 				14D7E95E27AD7FE70008DC4E /* Models */,
 				14D7E95027AD48D40008DC4E /* Assets.xcassets */,
@@ -157,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14D7E96427ADA4570008DC4E /* PersonalInfo.swift in Sources */,
 				14D7E96227AD92160008DC4E /* ContactList.swift in Sources */,
 				14D7E96027AD80370008DC4E /* PersonsList.swift in Sources */,
 				14D7E95B27AD747F0008DC4E /* Person.swift in Sources */,

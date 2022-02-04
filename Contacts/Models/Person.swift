@@ -5,8 +5,6 @@
 //  Created by Владислав Голосов on 04.02.2022.
 //
 
-import SwiftUI
-
 struct Person: Hashable {
     let name: String
     let surname: String
